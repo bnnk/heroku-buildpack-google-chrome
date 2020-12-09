@@ -185,7 +185,7 @@ EOF
 chmod +x $BIN_DIR/$SHIM
 cp $BIN_DIR/$SHIM $BIN_DIR/google-chrome
 echo "Installing Python3"
-sudo apt-get install python3 python3-pip
+apt-get install python3 python3-pip
 
 # export the chrome binary location, so it's easier to tell chromedriver
 # about the non-standard location
